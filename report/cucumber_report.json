@@ -1,0 +1,249 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Main navigation",
+    "line": 2,
+    "id": "main-navigation",
+    "tags": [],
+    "uri": "Feature_files\\scenario_dashboard.feature",
+    "elements": [
+      {
+        "id": "main-navigation;dashboard",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Dashboard",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User launch the chrome browser",
+            "match": {
+              "location": "StepDefinitions_files\\steps_dashboard.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User opens URL \"http://10.10.10.231:8082/#/app/dashboard\"",
+            "match": {
+              "location": "StepDefinitions_files\\steps_dashboard.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24344000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Click REST API TEST RESULT Link in dashboard",
+            "match": {
+              "location": "StepDefinitions_files\\steps_dashboard.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9170000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Select status as pass",
+            "match": {
+              "location": "StepDefinitions_files\\steps_dashboard.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3807000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Able to get pass test cases",
+            "match": {
+              "location": "StepDefinitions_files\\steps_dashboard.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 967000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User click on toggle button",
+            "match": {
+              "location": "StepDefinitions_files\\steps_dashboard.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User can able to view total test run count",
+            "match": {
+              "location": "StepDefinitions_files\\steps_dashboard.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 340000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User can able to view pass test percentage",
+            "match": {
+              "location": "StepDefinitions_files\\steps_dashboard.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User can able to view fail test count",
+            "match": {
+              "location": "StepDefinitions_files\\steps_dashboard.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "User can able to view skip test count",
+            "match": {
+              "location": "StepDefinitions_files\\steps_dashboard.ts:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "main-navigation;recent-runs",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Recent runs",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "Click on recent runs",
+            "match": {
+              "location": "StepDefinitions_files\\steps_dashboard.ts:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 134000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "click on Rest API Test Result",
+            "match": {
+              "location": "StepDefinitions_files\\steps_dashboard.ts:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2032000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "select Pass value from the drop down",
+            "match": {
+              "location": "StepDefinitions_files\\steps_dashboard.ts:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1305000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Select pass from the drop down",
+            "match": {
+              "location": "StepDefinitions_files\\steps_dashboard.ts:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "get the filtered values",
+            "match": {
+              "location": "StepDefinitions_files\\steps_dashboard.ts:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1002000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
