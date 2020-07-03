@@ -1,0 +1,19 @@
+{
+    "restAPI": "(//h4[@class='media-box-heading ng-binding'])[1]",
+    "pass": "//select[@name='status']",
+    "filteredValues": "#view-report-filter > div.slimScrollDiv > scrollable > table",
+    "toggleSwitch": "label.pull-right > span",
+    "totalTestCount": "//h4[.='10 TEST(S)']",
+    "testCountPassPercent": "//div[6]//div[@class='panel-body text-center']",
+    "testCountFail": "//div[7]//div[@class='panel-body text-center']",
+    "testSkipCount": "//div[8]//div[@class='panel-body text-center']",
+    "clickRecentRuns": "(//span[@class='ng-binding'])[2]",
+    "clickAPITestResults": "(//td[@class='ng-binding'])[1]",
+    "statusFilter": "//select[@name='status']",
+    "passValues": "//*[@id='view-report-filter']/div[2]/scrollable",
+    "dropDownClick": "//select[@name='status']",
+    "dropDownPass": "[value='PASS']",
+    "clickView": "//a[@title='View']",
+    "clickCustomer": "//select[@name='customers']",
+    "selectFalcon": "///option[@label='Falcon']"
+}
